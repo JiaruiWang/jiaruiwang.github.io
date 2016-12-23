@@ -1,0 +1,56 @@
+body{
+    width:1800px;
+    height: 1650px;
+    margin:0px auto;
+}
+path {  stroke: #fff; }
+/*path:hover {  opacity:0.5; }
+rect:hover {  opacity:0.5; }*/
+.axis {  font: 10px sans-serif; }
+.legend tr{    border-bottom:1px solid grey; }
+.legend tr:first-child{    border-top:1px solid grey; }
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  /*shape-rendering: crispEdges;*/
+  shape-rendering: auto;
+}
+
+
+
+#dashboard text {
+    font-size: 12px;
+    font-family: sans-serif;
+
+    fill:black;
+}
+.y.axis path {  display: none; }
+.legend{
+    display:inline-block;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+.legend td{
+    padding:3px 8px;
+    font-size:12px;
+    vertical-align:bottom;
+    font-family: sans-serif;
+    font-weight: normal;
+    fill:black;
+}
+.legendFreq, .legendPerc{
+    align:right;
+    width:10px;
+}
+
+
+#title h1{
+  margin:auto;
+  line-height:30px;
+  vertical-align:top;
+  font-family: sans-serif;
+  font-weight: 350;
+  fill:black;
+}
