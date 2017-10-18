@@ -289,7 +289,7 @@ function dashboard(id, fData){
         tr = legend.append("tbody").selectAll("tr").data(lD).enter().append("tr");
             
         // create the first column for each segment.
-        tr.append("td").append("svg").attr("transform","translate(80,80)")
+        tr.append("td").append("svg").attr("transform","translate(0,0)")
             .attr("width", '14').attr("height", '14')
             .append("rect")
             .attr("width", '14').attr("height", '14')
